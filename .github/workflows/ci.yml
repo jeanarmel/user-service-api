@@ -31,7 +31,6 @@ jobs:
               with:
                   push: true
                   platforms: linux/amd64,linux/arm64
-                  image: jeanarmel/user-service-api
-                  tags: 1.0, latest
+                  tags: jeanarmel/user-service-api:1.0,jeanarmel/user-service-api:latest
                   registry: docker.io
                   dockerfile: Dockerfile
