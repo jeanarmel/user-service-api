@@ -7,15 +7,7 @@ app.get('/', (req, res) => {
     res.json([
         {
             name: 'John Doe',
-            email: 'john.doe@gmail.com'
-        },
-        {
-            name: 'Louis Marc',
-            email: 'louis.marc@hotmail.com'
-        },
-        {
-            name: 'Barik Tenesse',
-            email: 'barik.tenesse@yahoo.com'
+            email: 'john.doe@exemple.com'
         }
     ])
 })
